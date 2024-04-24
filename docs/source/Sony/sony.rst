@@ -30,22 +30,6 @@ The summary plots are keograms covering the dark time of each day.
 
 The data from Sony is archived to `NIRD <https://www.sigma2.no/data-storage>`_.
 
-.. figure:: pics/LYR-Sony-020321_210313.jpg
-   :figwidth: 60%
-   :alt: A raw Sony image
-
-   A raw image from Sony ``LYR-Sony-020321_210313.jpg`` has (magnetic) north up and east to the left. The image 
-   size is :math:`2832 \times 2832` pixels.
-   
-   The lights from Longyearbyen can be see as a glow in the upper right corner. Based on the filename, the image was taken
-   on 2 Feb 2021 at 21:03:13 UT.
-
-.. figure:: pics/LYR-Sony-20210302.png
-   :figwidth: 60%
-   :alt: A Sony keogram
-   
-   An example keogram ``LYR-Sony-20210302.png`` has the time in the horizontal direction and north-south "slices" in vertical.
-   Again, based on the filename, the summary plots covers the 2nd of February, 2021.
 
 Star calibration
 ################
