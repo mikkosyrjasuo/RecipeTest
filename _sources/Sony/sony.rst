@@ -46,8 +46,7 @@ Control computer
    * Ubuntu 14.04
    * Use ssh for remote access
 
-.. note:: When starting the imaging software, wait for a password prompt! This may take a while...
-.. note:: You need to use the imaging software GUI, which requires all sorts of ssh-tunneling via VNC etc. (which does not seem to work well from Windows...)
+.. note:: When starting the imaging software, wait for a password prompt! This may take a while... Also, you will need to use a GUI which -- when controlling the software remotely -- requires all sorts of ssh-tunneling via VNC etc. (which does not seem to work well from Windows...)
 
 
 -------
