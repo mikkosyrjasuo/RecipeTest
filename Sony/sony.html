@@ -1,0 +1,600 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Sony A7S all-sky camera &#8212; KHO Recipes  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Sony/sony';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Welcome to KHO Recipes!" href="../index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">KHO Recipes  documentation</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Sony A7S all-sky camera</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/Sony/sony.rst" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.rst</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Sony A7S all-sky camera</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-description">Data description</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#star-calibration">Star calibration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#computer-setup">Computer setup</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration">Configuration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#software">Software</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#drawbacks-in-the-current-implementation">Drawbacks in the current implementation</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="sony-a7s-all-sky-camera">
+<h1>Sony A7S all-sky camera<a class="headerlink" href="#sony-a7s-all-sky-camera" title="Link to this heading">#</a></h1>
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p>Where is the data?</p></td>
+<td><p>Quicklook images at <code class="docutils literal notranslate"><span class="pre">birkeland</span></code>, archive at NIRD</p></td>
+</tr>
+<tr class="row-even"><td><p>Who?</p></td>
+<td><p>Dag (PI) and Mikko</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>Where?</p></td>
+<td rowspan="2"><p>Module 3</p></td>
+</tr>
+<tr class="row-even"></tr>
+<tr class="row-odd"><td><p>Main operational task</p></td>
+<td><p>Starting and stopping of the imaging</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The first Sony images up to and including 14 Nov 2015 are out of focus</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The date and time in the EXIF-data in each JPEG-image are <strong>incorrect</strong>. The correct date and time
+are embedded in the filename.</p>
+</div>
+<section id="data-description">
+<h2>Data description<a class="headerlink" href="#data-description" title="Link to this heading">#</a></h2>
+<p>The Sony camera stores colour all-sky images in JPEG-format. The image cadence is roughly one image every 10-12 seconds.
+Also, there are quicklook images for realtime webpage: these have a small label indicating date and time of the image.</p>
+<p>The summary plots are keograms covering the dark time of each day.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The filenaming convention is a bit confusing, but the raw files are <code class="docutils literal notranslate"><span class="pre">LYR-Sony-ddmmyy-HHMMSS.jpg</span></code> where <code class="docutils literal notranslate"><span class="pre">dd</span></code> and <code class="docutils literal notranslate"><span class="pre">mm</span></code> are
+the day and month, <code class="docutils literal notranslate"><span class="pre">yy</span></code> are the last two digits of the year and <code class="docutils literal notranslate"><span class="pre">HHMMSS</span></code> are the hours, minutes and seconds of the UT time
+(start of exposure). The keograms are named slightly differently with a full four digit year <code class="docutils literal notranslate"><span class="pre">LYR-Sony-yyyymmdd.png</span></code>.</p>
+</div>
+<p>The data from Sony is archived to <a class="reference external" href="https://www.sigma2.no/data-storage">NIRD</a>.</p>
+</section>
+<section id="star-calibration">
+<h2>Star calibration<a class="headerlink" href="#star-calibration" title="Link to this heading">#</a></h2>
+<p>Examples and source code for doing a simple star calibration can be found
+at <a class="reference external" href="https://github.com/mikkosyrjasuo/UNIS-starcalibration">github</a></p>
+</section>
+<hr class="docutils" />
+<section id="computer-setup">
+<h2>Computer setup<a class="headerlink" href="#computer-setup" title="Link to this heading">#</a></h2>
+<dl class="simple">
+<dt>Control computer</dt><dd><ul class="simple">
+<li><p>Ubuntu 14.04</p></li>
+<li><p>Use ssh for remote access</p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When starting the imaging software, wait for a password prompt! This may take a while…</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You need to use the imaging software GUI, which requires all sorts of ssh-tunneling via VNC etc. (which does not seem to work well from Windows…)</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="configuration">
+<h2>Configuration<a class="headerlink" href="#configuration" title="Link to this heading">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Sony camera body does not include a GPS and the current imaging software does not check nor update
+the date and time in the camera. This results in incorrect EXIF-data in the images. One should set the
+date and time to match the season when powering up the camera at the start of the season.</p>
+</div>
+<p>The configuration of the python program is done in the <code class="docutils literal notranslate"><span class="pre">.pysces_asi/settings.txt</span></code> file.</p>
+<p>As of December, 2020, the following settings for exposure time etc. are in use:</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Mode</p></th>
+<th class="head"><p>Min time between images</p></th>
+<th class="head"><p>ISO</p></th>
+<th class="head"><p>Shutter speed</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Nighttime</p></td>
+<td><p>10s</p></td>
+<td><p>16000</p></td>
+<td><p>4 s</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Day Time1</p></td>
+<td><p>30s</p></td>
+<td><p>100</p></td>
+<td><p>1/1000s</p></td>
+<td><p>Not actually used?</p></td>
+</tr>
+<tr class="row-even"><td><p>Day Time2</p></td>
+<td><p>30s</p></td>
+<td><p>100</p></td>
+<td><p>1/2000s</p></td>
+<td><p>Not actually used?</p></td>
+</tr>
+<tr class="row-odd"><td><p>Twilight1</p></td>
+<td><p>30s</p></td>
+<td><p>100</p></td>
+<td><p>1/8s</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Twilight2</p></td>
+<td><p>30s</p></td>
+<td><p>200</p></td>
+<td><p>1s</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Twilight3</p></td>
+<td><p>30s</p></td>
+<td><p>2000</p></td>
+<td><p>1.3s</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The mode is selected based on the location of the Sun and the Moon in the sky, but not on the phase
+of the Moon. One should also note that in LYR the Moon is always less than 40 degrees above the horizon
+during wintertime… Here is the selection logic:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">SUN_ANGLE</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">SUN_ANGLE</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">3</span> <span class="ow">and</span> <span class="n">MOON_ANGLE</span> <span class="o">&lt;</span> <span class="mi">40</span> <span class="o">=</span> <span class="s2">&quot;Twilight1&quot;</span>
+<span class="n">SUN_ANGLE</span> <span class="o">&lt;</span> <span class="o">-</span><span class="mi">3</span> <span class="ow">and</span> <span class="n">SUN_ANGLE</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">6</span> <span class="ow">and</span> <span class="n">MOON_ANGLE</span> <span class="o">&lt;</span> <span class="mi">40</span> <span class="o">=</span> <span class="s2">&quot;Twilight2&quot;</span>
+<span class="n">SUN_ANGLE</span> <span class="o">&lt;</span> <span class="o">-</span><span class="mi">6</span> <span class="ow">and</span> <span class="n">SUN_ANGLE</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">9</span> <span class="ow">and</span> <span class="n">MOON_ANGLE</span> <span class="o">&lt;</span> <span class="mi">40</span> <span class="o">=</span> <span class="s2">&quot;Twilight3&quot;</span>
+<span class="n">SUN_ANGLE</span> <span class="o">&lt;</span> <span class="o">-</span><span class="mi">9</span> <span class="ow">and</span> <span class="n">MOON_ANGLE</span> <span class="o">&lt;</span> <span class="mi">40</span> <span class="o">=</span> <span class="s2">&quot;Night Time&quot;</span>
+</pre></div>
+</div>
+<p>There is a backup system disk image in KHO-WD4</p>
+</section>
+<section id="software">
+<h2>Software<a class="headerlink" href="#software" title="Link to this heading">#</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">paskil</span></code> software was originally developed by Nial Peters (2009). For details, see his Master’s thesis
+<a class="reference external" href="http://urn.nb.no/URN:NBN:no-22683">http://urn.nb.no/URN:NBN:no-22683</a></p>
+<p>There are also <code class="docutils literal notranslate"><span class="pre">pysces_asi</span></code> and <code class="docutils literal notranslate"><span class="pre">paskil</span></code> python libraries being used. There are copies in NIRD and
+in github (<a class="github reference external" href="https://github.com/paalge">paalge</a>)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Instructions for starting and stopping of the camera operations are as the desktop background image.
+Originals can be found in <code class="docutils literal notranslate"><span class="pre">khodata:\Doc\Instrument</span> <span class="pre">instruction</span> <span class="pre">sheets\Sony_a7s</span></code></p></li>
+<li><p>The software will ask for password for various network drives. It may take some time before the
+dialog window appears (i.e. several minutes)</p></li>
+<li><p>Data management routines are operated via <code class="docutils literal notranslate"><span class="pre">crontab</span></code></p></li>
+</ul>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="drawbacks-in-the-current-implementation">
+<h2>Drawbacks in the current implementation<a class="headerlink" href="#drawbacks-in-the-current-implementation" title="Link to this heading">#</a></h2>
+<p>The current software and setup is a result of incremental additions to the original software. Especially the data
+management routines are a bit convoluted and reflect various changes in KHO infrastructure (local disk, NAS-box, NIRD).
+Also, <code class="docutils literal notranslate"><span class="pre">pysces_asi</span></code> writes huge log files, which is probably a left-over from earlier debugging efforts.</p>
+<p>The scheduler appears to be free-running rather than tighly synchronised to system time. This makes the timestamps in filenames inconsistent, which then requires additional care when working with data. The directory structure for data and how the routines pack images into tar-files for archival is somewhat peculiar.</p>
+<p>For example, here is what comes out when unpacking archived tar-files <code class="docutils literal notranslate"><span class="pre">20200107.tar.gz</span></code> (note missing directories for year and month):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">06</span><span class="o">/</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">070120_133004.</span><span class="n">jpg</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">070120_133015.</span><span class="n">jpg</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">070120_133027.</span><span class="n">jpg</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">070120_133038.</span><span class="n">jpg</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">070120_133050.</span><span class="n">jpg</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">070120_133102.</span><span class="n">jpg</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">070120_133113.</span><span class="n">jpg</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">070120_133125.</span><span class="n">jpg</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">070120_133137.</span><span class="n">jpg</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">070120_133148.</span><span class="n">jpg</span>
+<span class="mi">06</span><span class="o">/</span><span class="n">Images</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">070120_133200.</span><span class="n">jpg</span>
+</pre></div>
+</div>
+<p>One more practical issue is that the date format in the filename is day-month-(incomplete)-year . Perhaps, in future we might have time to
+re-write parts of the code to result in more user-friendly archived data packages. Also, the image capture times could
+be consistently fixed to, for example, every 10 seconds during nighttime:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">2020</span><span class="o">/</span><span class="mi">01</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">20200107_133000.</span><span class="n">jpg</span>
+<span class="mi">2020</span><span class="o">/</span><span class="mi">01</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">20200107_133010.</span><span class="n">jpg</span>
+<span class="mi">2020</span><span class="o">/</span><span class="mi">01</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">20200107_133020.</span><span class="n">jpg</span>
+<span class="mi">2020</span><span class="o">/</span><span class="mi">01</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">20200107_133030.</span><span class="n">jpg</span>
+<span class="mi">2020</span><span class="o">/</span><span class="mi">01</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">20200107_133040.</span><span class="n">jpg</span>
+<span class="mi">2020</span><span class="o">/</span><span class="mi">01</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">20200107_133050.</span><span class="n">jpg</span>
+<span class="mi">2020</span><span class="o">/</span><span class="mi">01</span><span class="o">/</span><span class="n">LYR</span><span class="o">-</span><span class="n">Sony</span><span class="o">-</span><span class="mf">20200107_133100.</span><span class="n">jpg</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Welcome to KHO Recipes!</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-description">Data description</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#star-calibration">Star calibration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#computer-setup">Computer setup</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration">Configuration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#software">Software</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#drawbacks-in-the-current-implementation">Drawbacks in the current implementation</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Mikko
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024, Mikko Syrjäsuo/UNIS.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
