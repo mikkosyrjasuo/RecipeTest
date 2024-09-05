@@ -6,6 +6,8 @@
 Welcome to KHO Recipes!
 =======================================
 
+This is a test.
+
 Quicklooks can be found here `<http://kho.unis.no/Keograms/keograms.php>`_
 
 .. toctree::
